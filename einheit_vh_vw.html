@@ -1,0 +1,50 @@
+
+
+<!-- Unterschied zwischen height: 100vh und height: 100% -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        body{
+            margin: 0;
+        }
+        .div1 {
+            background-color: red;
+            /* border: 1px solid green; */
+
+
+            /*bei 100vh hat man 100% Bildschirmhöhe die angezeigt wird bzw. genau sichtbare Browserhöhe, Zum Beispiel bedeuten 100vh genau 100% des gesamten Browserfensters bzw. das komplette Browserfenster. */
+            /* height: 100vh;     */
+            
+
+            /* height:100%  der Div in diesem Fall wird nur so hoch sein wie sein inhalt selbst trotz einer height von 100%. Wenn man ein p element hinzufügt ist die Höhe des Divs dann nur so hoch wie das p selbst*/
+            height: 100%;     
+
+
+            width: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="div1">
+        <span>
+            <p>Hallo wie geht es dir</p>
+            
+        </span>
+    </div>
+
+
+    <!-- das ist ein anderes file -->
+    
+</body>
+</html>
+
+
